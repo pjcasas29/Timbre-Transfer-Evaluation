@@ -1,0 +1,737 @@
+INFO - 04/21/21 16:45:23 - 0:00:00 - Namespace(batch_size=4, checkpoint=PosixPath('checkpoints/pretrained_musicnet/lastmodel'), data=[PosixPath('MIDISongs/preprocessed_midhigh/D1')], data_aug=True, decoder=[1], decoder_update=15, dist_backend='nccl', dist_url='env://', distributed=False, epoch_len=1000, epochs=180, expName='final/D1midhigh-dec-1-update-15', gpu='0', h5_dataset_name='wav', is_master=True, lr=0.001, lr_decay=0.995, magnitude=0.5, n_datasets=1, num_workers=2, per_epoch=False, rank=0, seed=1, seq_len=12000, short=False)
+INFO - 04/21/21 16:45:26 - 0:00:02 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 16:57:10 - 0:11:46 - Epoch 0 Rank 0 - Train loss: (1.1006), Test loss (1.0750)
+DEBUG - 04/21/21 16:57:10 - 0:11:46 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/21/21 16:57:10 - 0:11:47 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 16:57:10 - 0:11:47 - Ended epoch
+INFO - 04/21/21 16:57:10 - 0:11:47 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 17:08:55 - 0:23:32 - Epoch 1 Rank 0 - Train loss: (1.0572), Test loss (1.0106)
+DEBUG - 04/21/21 17:08:55 - 0:23:32 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/21/21 17:08:55 - 0:23:32 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 17:08:55 - 0:23:32 - Ended epoch
+INFO - 04/21/21 17:08:55 - 0:23:32 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 17:20:41 - 0:35:17 - Epoch 2 Rank 0 - Train loss: (1.0117), Test loss (1.0322)
+DEBUG - 04/21/21 17:20:41 - 0:35:18 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 17:20:41 - 0:35:18 - Ended epoch
+INFO - 04/21/21 17:20:41 - 0:35:18 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 17:32:27 - 0:47:04 - Epoch 3 Rank 0 - Train loss: (0.9951), Test loss (1.0037)
+DEBUG - 04/21/21 17:32:27 - 0:47:04 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/21/21 17:32:27 - 0:47:04 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 17:32:27 - 0:47:04 - Ended epoch
+INFO - 04/21/21 17:32:27 - 0:47:04 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 17:44:14 - 0:58:51 - Epoch 4 Rank 0 - Train loss: (0.9864), Test loss (0.9530)
+DEBUG - 04/21/21 17:44:14 - 0:58:51 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/21/21 17:44:14 - 0:58:51 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 17:44:14 - 0:58:51 - Ended epoch
+INFO - 04/21/21 17:44:14 - 0:58:51 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 17:56:01 - 1:10:38 - Epoch 5 Rank 0 - Train loss: (0.9750), Test loss (0.9542)
+DEBUG - 04/21/21 17:56:01 - 1:10:38 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 17:56:01 - 1:10:38 - Ended epoch
+INFO - 04/21/21 17:56:01 - 1:10:38 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 18:07:49 - 1:22:25 - Epoch 6 Rank 0 - Train loss: (1.0162), Test loss (0.9853)
+DEBUG - 04/21/21 18:07:49 - 1:22:26 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 18:07:49 - 1:22:26 - Ended epoch
+INFO - 04/21/21 18:07:49 - 1:22:26 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 18:19:36 - 1:34:13 - Epoch 7 Rank 0 - Train loss: (0.9667), Test loss (0.9889)
+DEBUG - 04/21/21 18:19:36 - 1:34:13 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 18:19:36 - 1:34:13 - Ended epoch
+INFO - 04/21/21 18:19:36 - 1:34:13 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 18:31:24 - 1:46:00 - Epoch 8 Rank 0 - Train loss: (0.9707), Test loss (0.9379)
+DEBUG - 04/21/21 18:31:24 - 1:46:01 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/21/21 18:31:24 - 1:46:01 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 18:31:24 - 1:46:01 - Ended epoch
+INFO - 04/21/21 18:31:24 - 1:46:01 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 18:43:12 - 1:57:49 - Epoch 9 Rank 0 - Train loss: (0.9460), Test loss (0.9575)
+DEBUG - 04/21/21 18:43:12 - 1:57:49 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 18:43:12 - 1:57:49 - Ended epoch
+INFO - 04/21/21 18:43:12 - 1:57:49 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 18:55:00 - 2:09:37 - Epoch 10 Rank 0 - Train loss: (0.9528), Test loss (0.9586)
+DEBUG - 04/21/21 18:55:00 - 2:09:37 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 18:55:00 - 2:09:37 - Ended epoch
+INFO - 04/21/21 18:55:00 - 2:09:37 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 19:06:48 - 2:21:25 - Epoch 11 Rank 0 - Train loss: (0.9637), Test loss (0.9624)
+DEBUG - 04/21/21 19:06:48 - 2:21:25 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 19:06:48 - 2:21:25 - Ended epoch
+INFO - 04/21/21 19:06:48 - 2:21:25 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 19:18:36 - 2:33:13 - Epoch 12 Rank 0 - Train loss: (0.9468), Test loss (0.9201)
+DEBUG - 04/21/21 19:18:36 - 2:33:13 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/21/21 19:18:36 - 2:33:13 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 19:18:36 - 2:33:13 - Ended epoch
+INFO - 04/21/21 19:18:36 - 2:33:13 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 19:30:24 - 2:45:01 - Epoch 13 Rank 0 - Train loss: (0.9359), Test loss (0.9396)
+DEBUG - 04/21/21 19:30:24 - 2:45:01 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 19:30:24 - 2:45:01 - Ended epoch
+INFO - 04/21/21 19:30:24 - 2:45:01 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 19:42:12 - 2:56:49 - Epoch 14 Rank 0 - Train loss: (0.9306), Test loss (0.9362)
+DEBUG - 04/21/21 19:42:12 - 2:56:49 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 19:42:12 - 2:56:49 - Ended epoch
+INFO - 04/21/21 19:42:12 - 2:56:49 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 19:54:01 - 3:08:38 - Epoch 15 Rank 0 - Train loss: (0.9407), Test loss (0.9144)
+DEBUG - 04/21/21 19:54:01 - 3:08:38 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/21/21 19:54:01 - 3:08:38 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 19:54:01 - 3:08:38 - Ended epoch
+INFO - 04/21/21 19:54:01 - 3:08:38 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 20:05:50 - 3:20:27 - Epoch 16 Rank 0 - Train loss: (0.9282), Test loss (0.9161)
+DEBUG - 04/21/21 20:05:50 - 3:20:27 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 20:05:50 - 3:20:27 - Ended epoch
+INFO - 04/21/21 20:05:50 - 3:20:27 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 20:17:38 - 3:32:15 - Epoch 17 Rank 0 - Train loss: (0.9469), Test loss (0.9545)
+DEBUG - 04/21/21 20:17:39 - 3:32:15 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 20:17:39 - 3:32:15 - Ended epoch
+INFO - 04/21/21 20:17:39 - 3:32:15 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 20:29:28 - 3:44:05 - Epoch 18 Rank 0 - Train loss: (0.9274), Test loss (0.9743)
+DEBUG - 04/21/21 20:29:28 - 3:44:05 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 20:29:28 - 3:44:05 - Ended epoch
+INFO - 04/21/21 20:29:28 - 3:44:05 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 20:41:18 - 3:55:54 - Epoch 19 Rank 0 - Train loss: (0.9348), Test loss (0.8846)
+DEBUG - 04/21/21 20:41:18 - 3:55:55 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/21/21 20:41:18 - 3:55:55 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 20:41:18 - 3:55:55 - Ended epoch
+INFO - 04/21/21 20:41:18 - 3:55:55 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 20:53:07 - 4:07:44 - Epoch 20 Rank 0 - Train loss: (0.9212), Test loss (0.9447)
+DEBUG - 04/21/21 20:53:08 - 4:07:44 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 20:53:08 - 4:07:44 - Ended epoch
+INFO - 04/21/21 20:53:08 - 4:07:44 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 21:04:57 - 4:19:34 - Epoch 21 Rank 0 - Train loss: (0.9207), Test loss (0.9149)
+DEBUG - 04/21/21 21:04:57 - 4:19:34 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 21:04:57 - 4:19:34 - Ended epoch
+INFO - 04/21/21 21:04:57 - 4:19:34 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 21:16:47 - 4:31:24 - Epoch 22 Rank 0 - Train loss: (0.9194), Test loss (0.9485)
+DEBUG - 04/21/21 21:16:47 - 4:31:24 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 21:16:47 - 4:31:24 - Ended epoch
+INFO - 04/21/21 21:16:47 - 4:31:24 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 21:28:37 - 4:43:14 - Epoch 23 Rank 0 - Train loss: (0.9195), Test loss (0.8838)
+DEBUG - 04/21/21 21:28:37 - 4:43:14 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/21/21 21:28:37 - 4:43:14 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 21:28:37 - 4:43:14 - Ended epoch
+INFO - 04/21/21 21:28:37 - 4:43:14 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 21:40:27 - 4:55:04 - Epoch 24 Rank 0 - Train loss: (0.9250), Test loss (0.9112)
+DEBUG - 04/21/21 21:40:27 - 4:55:04 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 21:40:27 - 4:55:04 - Ended epoch
+INFO - 04/21/21 21:40:27 - 4:55:04 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 21:52:17 - 5:06:54 - Epoch 25 Rank 0 - Train loss: (0.9153), Test loss (0.9016)
+DEBUG - 04/21/21 21:52:17 - 5:06:54 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 21:52:17 - 5:06:54 - Ended epoch
+INFO - 04/21/21 21:52:17 - 5:06:54 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 22:04:07 - 5:18:44 - Epoch 26 Rank 0 - Train loss: (0.9053), Test loss (0.9192)
+DEBUG - 04/21/21 22:04:07 - 5:18:44 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 22:04:07 - 5:18:44 - Ended epoch
+INFO - 04/21/21 22:04:07 - 5:18:44 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 22:15:56 - 5:30:33 - Epoch 27 Rank 0 - Train loss: (0.9075), Test loss (0.9170)
+DEBUG - 04/21/21 22:15:57 - 5:30:33 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 22:15:57 - 5:30:33 - Ended epoch
+INFO - 04/21/21 22:15:57 - 5:30:33 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 22:27:46 - 5:42:22 - Epoch 28 Rank 0 - Train loss: (0.9134), Test loss (0.9714)
+DEBUG - 04/21/21 22:27:46 - 5:42:23 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 22:27:46 - 5:42:23 - Ended epoch
+INFO - 04/21/21 22:27:46 - 5:42:23 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 22:39:35 - 5:54:11 - Epoch 29 Rank 0 - Train loss: (0.9035), Test loss (0.9012)
+DEBUG - 04/21/21 22:39:35 - 5:54:12 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 22:39:35 - 5:54:12 - Ended epoch
+INFO - 04/21/21 22:39:35 - 5:54:12 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 22:51:23 - 6:06:00 - Epoch 30 Rank 0 - Train loss: (0.8961), Test loss (0.9302)
+DEBUG - 04/21/21 22:51:23 - 6:06:00 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 22:51:23 - 6:06:00 - Ended epoch
+INFO - 04/21/21 22:51:23 - 6:06:00 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 23:03:12 - 6:17:49 - Epoch 31 Rank 0 - Train loss: (0.9005), Test loss (0.9011)
+DEBUG - 04/21/21 23:03:12 - 6:17:49 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 23:03:12 - 6:17:49 - Ended epoch
+INFO - 04/21/21 23:03:12 - 6:17:49 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 23:15:01 - 6:29:38 - Epoch 32 Rank 0 - Train loss: (0.9062), Test loss (0.8939)
+DEBUG - 04/21/21 23:15:02 - 6:29:38 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 23:15:02 - 6:29:38 - Ended epoch
+INFO - 04/21/21 23:15:02 - 6:29:38 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 23:26:51 - 6:41:28 - Epoch 33 Rank 0 - Train loss: (0.8953), Test loss (0.9184)
+DEBUG - 04/21/21 23:26:51 - 6:41:28 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 23:26:51 - 6:41:28 - Ended epoch
+INFO - 04/21/21 23:26:51 - 6:41:28 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 23:38:41 - 6:53:18 - Epoch 34 Rank 0 - Train loss: (0.8911), Test loss (0.9287)
+DEBUG - 04/21/21 23:38:41 - 6:53:18 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 23:38:41 - 6:53:18 - Ended epoch
+INFO - 04/21/21 23:38:41 - 6:53:18 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/21/21 23:50:31 - 7:05:08 - Epoch 35 Rank 0 - Train loss: (0.8961), Test loss (0.9217)
+DEBUG - 04/21/21 23:50:31 - 7:05:08 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/21/21 23:50:31 - 7:05:08 - Ended epoch
+INFO - 04/21/21 23:50:31 - 7:05:08 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 00:02:21 - 7:16:58 - Epoch 36 Rank 0 - Train loss: (0.8826), Test loss (0.9280)
+DEBUG - 04/22/21 00:02:21 - 7:16:58 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 00:02:21 - 7:16:58 - Ended epoch
+INFO - 04/22/21 00:02:21 - 7:16:58 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 00:14:11 - 7:28:48 - Epoch 37 Rank 0 - Train loss: (0.9015), Test loss (0.8470)
+DEBUG - 04/22/21 00:14:11 - 7:28:48 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/22/21 00:14:11 - 7:28:48 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 00:14:11 - 7:28:48 - Ended epoch
+INFO - 04/22/21 00:14:11 - 7:28:48 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 00:26:00 - 7:40:37 - Epoch 38 Rank 0 - Train loss: (0.8845), Test loss (0.9072)
+DEBUG - 04/22/21 00:26:00 - 7:40:37 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 00:26:00 - 7:40:37 - Ended epoch
+INFO - 04/22/21 00:26:00 - 7:40:37 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 00:37:49 - 7:52:26 - Epoch 39 Rank 0 - Train loss: (0.9023), Test loss (0.9102)
+DEBUG - 04/22/21 00:37:49 - 7:52:26 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 00:37:49 - 7:52:26 - Ended epoch
+INFO - 04/22/21 00:37:49 - 7:52:26 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 00:49:38 - 8:04:15 - Epoch 40 Rank 0 - Train loss: (0.8852), Test loss (0.9081)
+DEBUG - 04/22/21 00:49:38 - 8:04:15 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 00:49:38 - 8:04:15 - Ended epoch
+INFO - 04/22/21 00:49:38 - 8:04:15 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 01:01:27 - 8:16:04 - Epoch 41 Rank 0 - Train loss: (0.8872), Test loss (0.9035)
+DEBUG - 04/22/21 01:01:27 - 8:16:04 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 01:01:27 - 8:16:04 - Ended epoch
+INFO - 04/22/21 01:01:27 - 8:16:04 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 01:13:16 - 8:27:53 - Epoch 42 Rank 0 - Train loss: (0.8842), Test loss (0.8778)
+DEBUG - 04/22/21 01:13:16 - 8:27:53 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 01:13:16 - 8:27:53 - Ended epoch
+INFO - 04/22/21 01:13:16 - 8:27:53 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 01:25:06 - 8:39:42 - Epoch 43 Rank 0 - Train loss: (0.8889), Test loss (0.8967)
+DEBUG - 04/22/21 01:25:06 - 8:39:42 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 01:25:06 - 8:39:42 - Ended epoch
+INFO - 04/22/21 01:25:06 - 8:39:42 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 01:36:55 - 8:51:32 - Epoch 44 Rank 0 - Train loss: (0.8887), Test loss (0.9117)
+DEBUG - 04/22/21 01:36:55 - 8:51:32 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 01:36:55 - 8:51:32 - Ended epoch
+INFO - 04/22/21 01:36:55 - 8:51:32 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 01:48:44 - 9:03:21 - Epoch 45 Rank 0 - Train loss: (0.8863), Test loss (0.8833)
+DEBUG - 04/22/21 01:48:44 - 9:03:21 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 01:48:44 - 9:03:21 - Ended epoch
+INFO - 04/22/21 01:48:44 - 9:03:21 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 02:00:34 - 9:15:11 - Epoch 46 Rank 0 - Train loss: (0.8915), Test loss (0.8813)
+DEBUG - 04/22/21 02:00:34 - 9:15:11 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 02:00:34 - 9:15:11 - Ended epoch
+INFO - 04/22/21 02:00:34 - 9:15:11 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 02:12:23 - 9:27:00 - Epoch 47 Rank 0 - Train loss: (0.8758), Test loss (0.8919)
+DEBUG - 04/22/21 02:12:24 - 9:27:00 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 02:12:24 - 9:27:00 - Ended epoch
+INFO - 04/22/21 02:12:24 - 9:27:00 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 02:24:12 - 9:38:49 - Epoch 48 Rank 0 - Train loss: (0.8825), Test loss (0.8836)
+DEBUG - 04/22/21 02:24:12 - 9:38:49 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 02:24:12 - 9:38:49 - Ended epoch
+INFO - 04/22/21 02:24:12 - 9:38:49 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 02:36:01 - 9:50:38 - Epoch 49 Rank 0 - Train loss: (0.8862), Test loss (0.8803)
+DEBUG - 04/22/21 02:36:02 - 9:50:38 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 02:36:02 - 9:50:38 - Ended epoch
+INFO - 04/22/21 02:36:02 - 9:50:38 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 02:47:50 - 10:02:27 - Epoch 50 Rank 0 - Train loss: (0.8697), Test loss (0.8945)
+DEBUG - 04/22/21 02:47:50 - 10:02:27 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 02:47:50 - 10:02:27 - Ended epoch
+INFO - 04/22/21 02:47:50 - 10:02:27 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 02:59:38 - 10:14:15 - Epoch 51 Rank 0 - Train loss: (0.8819), Test loss (0.8516)
+DEBUG - 04/22/21 02:59:38 - 10:14:15 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 02:59:38 - 10:14:15 - Ended epoch
+INFO - 04/22/21 02:59:38 - 10:14:15 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 03:11:26 - 10:26:03 - Epoch 52 Rank 0 - Train loss: (0.8760), Test loss (0.8763)
+DEBUG - 04/22/21 03:11:27 - 10:26:03 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 03:11:27 - 10:26:03 - Ended epoch
+INFO - 04/22/21 03:11:27 - 10:26:03 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 03:23:15 - 10:37:52 - Epoch 53 Rank 0 - Train loss: (0.8817), Test loss (0.8558)
+DEBUG - 04/22/21 03:23:15 - 10:37:52 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 03:23:15 - 10:37:52 - Ended epoch
+INFO - 04/22/21 03:23:15 - 10:37:52 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 03:35:03 - 10:49:40 - Epoch 54 Rank 0 - Train loss: (0.8764), Test loss (0.8706)
+DEBUG - 04/22/21 03:35:03 - 10:49:40 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 03:35:03 - 10:49:40 - Ended epoch
+INFO - 04/22/21 03:35:03 - 10:49:40 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 03:46:51 - 11:01:28 - Epoch 55 Rank 0 - Train loss: (0.8752), Test loss (0.9386)
+DEBUG - 04/22/21 03:46:51 - 11:01:28 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 03:46:51 - 11:01:28 - Ended epoch
+INFO - 04/22/21 03:46:51 - 11:01:28 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 03:58:39 - 11:13:16 - Epoch 56 Rank 0 - Train loss: (0.8776), Test loss (0.8466)
+DEBUG - 04/22/21 03:58:39 - 11:13:16 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/22/21 03:58:39 - 11:13:16 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 03:58:39 - 11:13:16 - Ended epoch
+INFO - 04/22/21 03:58:39 - 11:13:16 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 04:10:27 - 11:25:04 - Epoch 57 Rank 0 - Train loss: (0.8707), Test loss (0.8526)
+DEBUG - 04/22/21 04:10:27 - 11:25:04 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 04:10:27 - 11:25:04 - Ended epoch
+INFO - 04/22/21 04:10:27 - 11:25:04 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 04:22:15 - 11:36:52 - Epoch 58 Rank 0 - Train loss: (0.8653), Test loss (0.8591)
+DEBUG - 04/22/21 04:22:15 - 11:36:52 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 04:22:15 - 11:36:52 - Ended epoch
+INFO - 04/22/21 04:22:15 - 11:36:52 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 04:34:02 - 11:48:39 - Epoch 59 Rank 0 - Train loss: (0.8681), Test loss (0.8654)
+DEBUG - 04/22/21 04:34:03 - 11:48:39 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 04:34:03 - 11:48:39 - Ended epoch
+INFO - 04/22/21 04:34:03 - 11:48:39 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 04:45:51 - 12:00:27 - Epoch 60 Rank 0 - Train loss: (0.8716), Test loss (0.8436)
+DEBUG - 04/22/21 04:45:51 - 12:00:28 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/22/21 04:45:51 - 12:00:28 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 04:45:51 - 12:00:28 - Ended epoch
+INFO - 04/22/21 04:45:51 - 12:00:28 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 04:57:39 - 12:12:16 - Epoch 61 Rank 0 - Train loss: (0.8725), Test loss (0.9608)
+DEBUG - 04/22/21 04:57:39 - 12:12:16 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 04:57:39 - 12:12:16 - Ended epoch
+INFO - 04/22/21 04:57:39 - 12:12:16 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 05:09:28 - 12:24:04 - Epoch 62 Rank 0 - Train loss: (0.8650), Test loss (0.8745)
+DEBUG - 04/22/21 05:09:28 - 12:24:04 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 05:09:28 - 12:24:04 - Ended epoch
+INFO - 04/22/21 05:09:28 - 12:24:04 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 05:21:17 - 12:35:54 - Epoch 63 Rank 0 - Train loss: (0.8724), Test loss (0.8570)
+DEBUG - 04/22/21 05:21:17 - 12:35:54 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 05:21:17 - 12:35:54 - Ended epoch
+INFO - 04/22/21 05:21:17 - 12:35:54 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 05:33:06 - 12:47:43 - Epoch 64 Rank 0 - Train loss: (0.8724), Test loss (0.8977)
+DEBUG - 04/22/21 05:33:06 - 12:47:43 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 05:33:06 - 12:47:43 - Ended epoch
+INFO - 04/22/21 05:33:06 - 12:47:43 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 05:44:55 - 12:59:31 - Epoch 65 Rank 0 - Train loss: (0.8542), Test loss (0.8454)
+DEBUG - 04/22/21 05:44:55 - 12:59:32 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 05:44:55 - 12:59:32 - Ended epoch
+INFO - 04/22/21 05:44:55 - 12:59:32 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 05:56:44 - 13:11:21 - Epoch 66 Rank 0 - Train loss: (0.8703), Test loss (0.8507)
+DEBUG - 04/22/21 05:56:44 - 13:11:21 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 05:56:44 - 13:11:21 - Ended epoch
+INFO - 04/22/21 05:56:44 - 13:11:21 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 06:08:34 - 13:23:11 - Epoch 67 Rank 0 - Train loss: (0.8610), Test loss (0.8599)
+DEBUG - 04/22/21 06:08:34 - 13:23:11 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 06:08:34 - 13:23:11 - Ended epoch
+INFO - 04/22/21 06:08:34 - 13:23:11 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 06:20:23 - 13:35:00 - Epoch 68 Rank 0 - Train loss: (0.8629), Test loss (0.8561)
+DEBUG - 04/22/21 06:20:24 - 13:35:00 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 06:20:24 - 13:35:00 - Ended epoch
+INFO - 04/22/21 06:20:24 - 13:35:00 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 06:32:13 - 13:46:50 - Epoch 69 Rank 0 - Train loss: (0.8595), Test loss (0.8768)
+DEBUG - 04/22/21 06:32:13 - 13:46:50 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 06:32:13 - 13:46:50 - Ended epoch
+INFO - 04/22/21 06:32:13 - 13:46:50 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 06:44:02 - 13:58:39 - Epoch 70 Rank 0 - Train loss: (0.8607), Test loss (0.8992)
+DEBUG - 04/22/21 06:44:02 - 13:58:39 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 06:44:02 - 13:58:39 - Ended epoch
+INFO - 04/22/21 06:44:02 - 13:58:39 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 06:55:51 - 14:10:28 - Epoch 71 Rank 0 - Train loss: (0.8675), Test loss (0.8772)
+DEBUG - 04/22/21 06:55:51 - 14:10:28 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 06:55:51 - 14:10:28 - Ended epoch
+INFO - 04/22/21 06:55:51 - 14:10:28 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 07:07:42 - 14:22:18 - Epoch 72 Rank 0 - Train loss: (0.8659), Test loss (0.8666)
+DEBUG - 04/22/21 07:07:42 - 14:22:19 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 07:07:42 - 14:22:19 - Ended epoch
+INFO - 04/22/21 07:07:42 - 14:22:19 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 07:19:32 - 14:34:08 - Epoch 73 Rank 0 - Train loss: (0.8650), Test loss (0.8548)
+DEBUG - 04/22/21 07:19:32 - 14:34:09 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 07:19:32 - 14:34:09 - Ended epoch
+INFO - 04/22/21 07:19:32 - 14:34:09 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 07:31:21 - 14:45:58 - Epoch 74 Rank 0 - Train loss: (0.8518), Test loss (0.8651)
+DEBUG - 04/22/21 07:31:21 - 14:45:58 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 07:31:21 - 14:45:58 - Ended epoch
+INFO - 04/22/21 07:31:21 - 14:45:58 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 07:43:11 - 14:57:48 - Epoch 75 Rank 0 - Train loss: (0.8632), Test loss (0.8718)
+DEBUG - 04/22/21 07:43:11 - 14:57:48 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 07:43:11 - 14:57:48 - Ended epoch
+INFO - 04/22/21 07:43:11 - 14:57:48 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 07:55:00 - 15:09:37 - Epoch 76 Rank 0 - Train loss: (0.8558), Test loss (0.8489)
+DEBUG - 04/22/21 07:55:00 - 15:09:37 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 07:55:00 - 15:09:37 - Ended epoch
+INFO - 04/22/21 07:55:00 - 15:09:37 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 08:06:50 - 15:21:27 - Epoch 77 Rank 0 - Train loss: (0.8564), Test loss (0.8670)
+DEBUG - 04/22/21 08:06:50 - 15:21:27 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 08:06:50 - 15:21:27 - Ended epoch
+INFO - 04/22/21 08:06:50 - 15:21:27 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 08:18:40 - 15:33:16 - Epoch 78 Rank 0 - Train loss: (0.8640), Test loss (0.8436)
+DEBUG - 04/22/21 08:18:40 - 15:33:17 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/22/21 08:18:40 - 15:33:17 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 08:18:40 - 15:33:17 - Ended epoch
+INFO - 04/22/21 08:18:40 - 15:33:17 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 08:30:29 - 15:45:06 - Epoch 79 Rank 0 - Train loss: (0.8582), Test loss (0.8525)
+DEBUG - 04/22/21 08:30:29 - 15:45:06 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 08:30:29 - 15:45:06 - Ended epoch
+INFO - 04/22/21 08:30:29 - 15:45:06 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 08:42:18 - 15:56:55 - Epoch 80 Rank 0 - Train loss: (0.8438), Test loss (0.8688)
+DEBUG - 04/22/21 08:42:18 - 15:56:55 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 08:42:18 - 15:56:55 - Ended epoch
+INFO - 04/22/21 08:42:18 - 15:56:55 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 08:54:07 - 16:08:44 - Epoch 81 Rank 0 - Train loss: (0.8545), Test loss (0.8179)
+DEBUG - 04/22/21 08:54:07 - 16:08:44 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/22/21 08:54:07 - 16:08:44 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 08:54:07 - 16:08:44 - Ended epoch
+INFO - 04/22/21 08:54:07 - 16:08:44 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 09:05:56 - 16:20:33 - Epoch 82 Rank 0 - Train loss: (0.8600), Test loss (0.8618)
+DEBUG - 04/22/21 09:05:56 - 16:20:33 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 09:05:56 - 16:20:33 - Ended epoch
+INFO - 04/22/21 09:05:56 - 16:20:33 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 09:17:45 - 16:32:22 - Epoch 83 Rank 0 - Train loss: (0.8598), Test loss (0.8591)
+DEBUG - 04/22/21 09:17:45 - 16:32:22 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 09:17:45 - 16:32:22 - Ended epoch
+INFO - 04/22/21 09:17:45 - 16:32:22 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 09:29:33 - 16:44:10 - Epoch 84 Rank 0 - Train loss: (0.8533), Test loss (0.8903)
+DEBUG - 04/22/21 09:29:33 - 16:44:10 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 09:29:33 - 16:44:10 - Ended epoch
+INFO - 04/22/21 09:29:33 - 16:44:10 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 09:41:21 - 16:55:58 - Epoch 85 Rank 0 - Train loss: (0.8619), Test loss (0.9027)
+DEBUG - 04/22/21 09:41:21 - 16:55:58 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 09:41:21 - 16:55:58 - Ended epoch
+INFO - 04/22/21 09:41:21 - 16:55:58 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 09:53:09 - 17:07:46 - Epoch 86 Rank 0 - Train loss: (0.8552), Test loss (0.8603)
+DEBUG - 04/22/21 09:53:09 - 17:07:46 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 09:53:09 - 17:07:46 - Ended epoch
+INFO - 04/22/21 09:53:09 - 17:07:46 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 10:04:56 - 17:19:33 - Epoch 87 Rank 0 - Train loss: (0.8529), Test loss (0.9007)
+DEBUG - 04/22/21 10:04:56 - 17:19:33 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 10:04:56 - 17:19:33 - Ended epoch
+INFO - 04/22/21 10:04:56 - 17:19:33 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 10:16:44 - 17:31:21 - Epoch 88 Rank 0 - Train loss: (0.8533), Test loss (0.8705)
+DEBUG - 04/22/21 10:16:44 - 17:31:21 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 10:16:44 - 17:31:21 - Ended epoch
+INFO - 04/22/21 10:16:44 - 17:31:21 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 10:28:33 - 17:43:09 - Epoch 89 Rank 0 - Train loss: (0.8562), Test loss (0.8549)
+DEBUG - 04/22/21 10:28:33 - 17:43:10 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 10:28:33 - 17:43:10 - Ended epoch
+INFO - 04/22/21 10:28:33 - 17:43:10 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 10:40:21 - 17:54:58 - Epoch 90 Rank 0 - Train loss: (0.8496), Test loss (0.8574)
+DEBUG - 04/22/21 10:40:22 - 17:54:58 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 10:40:22 - 17:54:58 - Ended epoch
+INFO - 04/22/21 10:40:22 - 17:54:58 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 10:52:10 - 18:06:47 - Epoch 91 Rank 0 - Train loss: (0.8460), Test loss (0.8537)
+DEBUG - 04/22/21 10:52:10 - 18:06:47 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 10:52:10 - 18:06:47 - Ended epoch
+INFO - 04/22/21 10:52:10 - 18:06:47 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 11:03:59 - 18:18:35 - Epoch 92 Rank 0 - Train loss: (0.8479), Test loss (0.8558)
+DEBUG - 04/22/21 11:03:59 - 18:18:36 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 11:03:59 - 18:18:36 - Ended epoch
+INFO - 04/22/21 11:03:59 - 18:18:36 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 11:15:47 - 18:30:24 - Epoch 93 Rank 0 - Train loss: (0.8495), Test loss (0.8370)
+DEBUG - 04/22/21 11:15:47 - 18:30:24 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 11:15:47 - 18:30:24 - Ended epoch
+INFO - 04/22/21 11:15:47 - 18:30:24 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 11:27:36 - 18:42:13 - Epoch 94 Rank 0 - Train loss: (0.8564), Test loss (0.8331)
+DEBUG - 04/22/21 11:27:36 - 18:42:13 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 11:27:36 - 18:42:13 - Ended epoch
+INFO - 04/22/21 11:27:36 - 18:42:13 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 11:39:24 - 18:54:01 - Epoch 95 Rank 0 - Train loss: (0.8558), Test loss (0.8204)
+DEBUG - 04/22/21 11:39:24 - 18:54:01 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 11:39:24 - 18:54:01 - Ended epoch
+INFO - 04/22/21 11:39:24 - 18:54:01 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 11:51:13 - 19:05:50 - Epoch 96 Rank 0 - Train loss: (0.8466), Test loss (0.8424)
+DEBUG - 04/22/21 11:51:14 - 19:05:50 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 11:51:14 - 19:05:50 - Ended epoch
+INFO - 04/22/21 11:51:14 - 19:05:50 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 12:03:02 - 19:17:39 - Epoch 97 Rank 0 - Train loss: (0.8457), Test loss (0.8654)
+DEBUG - 04/22/21 12:03:02 - 19:17:39 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 12:03:02 - 19:17:39 - Ended epoch
+INFO - 04/22/21 12:03:02 - 19:17:39 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 12:14:51 - 19:29:28 - Epoch 98 Rank 0 - Train loss: (0.8496), Test loss (0.8560)
+DEBUG - 04/22/21 12:14:51 - 19:29:28 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 12:14:51 - 19:29:28 - Ended epoch
+INFO - 04/22/21 12:14:51 - 19:29:28 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 12:26:40 - 19:41:17 - Epoch 99 Rank 0 - Train loss: (0.8492), Test loss (0.8939)
+DEBUG - 04/22/21 12:26:41 - 19:41:17 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 12:26:41 - 19:41:17 - Ended epoch
+INFO - 04/22/21 12:26:41 - 19:41:17 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 12:38:30 - 19:53:07 - Epoch 100 Rank 0 - Train loss: (0.8523), Test loss (0.8668)
+DEBUG - 04/22/21 12:38:30 - 19:53:07 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 12:38:30 - 19:53:07 - Ended epoch
+INFO - 04/22/21 12:38:30 - 19:53:07 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 12:50:20 - 20:04:57 - Epoch 101 Rank 0 - Train loss: (0.8525), Test loss (0.8942)
+DEBUG - 04/22/21 12:50:20 - 20:04:57 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 12:50:20 - 20:04:57 - Ended epoch
+INFO - 04/22/21 12:50:20 - 20:04:57 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 13:02:11 - 20:16:48 - Epoch 102 Rank 0 - Train loss: (0.8491), Test loss (0.9178)
+DEBUG - 04/22/21 13:02:11 - 20:16:48 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 13:02:11 - 20:16:48 - Ended epoch
+INFO - 04/22/21 13:02:11 - 20:16:48 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 13:14:01 - 20:28:38 - Epoch 103 Rank 0 - Train loss: (0.8463), Test loss (0.8590)
+DEBUG - 04/22/21 13:14:01 - 20:28:38 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 13:14:01 - 20:28:38 - Ended epoch
+INFO - 04/22/21 13:14:01 - 20:28:38 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 13:25:51 - 20:40:28 - Epoch 104 Rank 0 - Train loss: (0.8407), Test loss (0.8976)
+DEBUG - 04/22/21 13:25:51 - 20:40:28 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 13:25:51 - 20:40:28 - Ended epoch
+INFO - 04/22/21 13:25:51 - 20:40:28 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 13:37:40 - 20:52:17 - Epoch 105 Rank 0 - Train loss: (0.8408), Test loss (0.8564)
+DEBUG - 04/22/21 13:37:41 - 20:52:17 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 13:37:41 - 20:52:17 - Ended epoch
+INFO - 04/22/21 13:37:41 - 20:52:17 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 13:49:30 - 21:04:07 - Epoch 106 Rank 0 - Train loss: (0.8382), Test loss (0.8650)
+DEBUG - 04/22/21 13:49:30 - 21:04:07 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 13:49:30 - 21:04:07 - Ended epoch
+INFO - 04/22/21 13:49:30 - 21:04:07 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 14:01:20 - 21:15:56 - Epoch 107 Rank 0 - Train loss: (0.8399), Test loss (0.8693)
+DEBUG - 04/22/21 14:01:20 - 21:15:57 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 14:01:20 - 21:15:57 - Ended epoch
+INFO - 04/22/21 14:01:20 - 21:15:57 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 14:13:09 - 21:27:46 - Epoch 108 Rank 0 - Train loss: (0.8537), Test loss (0.8676)
+DEBUG - 04/22/21 14:13:09 - 21:27:46 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 14:13:09 - 21:27:46 - Ended epoch
+INFO - 04/22/21 14:13:09 - 21:27:46 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 14:24:59 - 21:39:35 - Epoch 109 Rank 0 - Train loss: (0.8446), Test loss (0.8321)
+DEBUG - 04/22/21 14:24:59 - 21:39:36 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 14:24:59 - 21:39:36 - Ended epoch
+INFO - 04/22/21 14:24:59 - 21:39:36 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 14:36:48 - 21:51:25 - Epoch 110 Rank 0 - Train loss: (0.8416), Test loss (0.8653)
+DEBUG - 04/22/21 14:36:48 - 21:51:25 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 14:36:48 - 21:51:25 - Ended epoch
+INFO - 04/22/21 14:36:48 - 21:51:25 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 14:48:37 - 22:03:14 - Epoch 111 Rank 0 - Train loss: (0.8375), Test loss (0.8548)
+DEBUG - 04/22/21 14:48:37 - 22:03:14 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 14:48:37 - 22:03:14 - Ended epoch
+INFO - 04/22/21 14:48:37 - 22:03:14 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 15:00:26 - 22:15:03 - Epoch 112 Rank 0 - Train loss: (0.8348), Test loss (0.8607)
+DEBUG - 04/22/21 15:00:26 - 22:15:03 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 15:00:26 - 22:15:03 - Ended epoch
+INFO - 04/22/21 15:00:26 - 22:15:03 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 15:12:14 - 22:26:51 - Epoch 113 Rank 0 - Train loss: (0.8368), Test loss (0.8570)
+DEBUG - 04/22/21 15:12:15 - 22:26:51 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 15:12:15 - 22:26:51 - Ended epoch
+INFO - 04/22/21 15:12:15 - 22:26:51 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 15:24:03 - 22:38:40 - Epoch 114 Rank 0 - Train loss: (0.8418), Test loss (0.8613)
+DEBUG - 04/22/21 15:24:04 - 22:38:40 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 15:24:04 - 22:38:40 - Ended epoch
+INFO - 04/22/21 15:24:04 - 22:38:40 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 15:35:53 - 22:50:30 - Epoch 115 Rank 0 - Train loss: (0.8301), Test loss (0.8773)
+DEBUG - 04/22/21 15:35:53 - 22:50:30 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 15:35:53 - 22:50:30 - Ended epoch
+INFO - 04/22/21 15:35:53 - 22:50:30 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 15:47:43 - 23:02:19 - Epoch 116 Rank 0 - Train loss: (0.8450), Test loss (0.8532)
+DEBUG - 04/22/21 15:47:43 - 23:02:20 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 15:47:43 - 23:02:20 - Ended epoch
+INFO - 04/22/21 15:47:43 - 23:02:20 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 15:59:32 - 23:14:09 - Epoch 117 Rank 0 - Train loss: (0.8441), Test loss (0.8636)
+DEBUG - 04/22/21 15:59:32 - 23:14:09 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 15:59:32 - 23:14:09 - Ended epoch
+INFO - 04/22/21 15:59:32 - 23:14:09 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 16:11:21 - 23:25:58 - Epoch 118 Rank 0 - Train loss: (0.8355), Test loss (0.8364)
+DEBUG - 04/22/21 16:11:21 - 23:25:58 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 16:11:21 - 23:25:58 - Ended epoch
+INFO - 04/22/21 16:11:21 - 23:25:58 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 16:23:10 - 23:37:47 - Epoch 119 Rank 0 - Train loss: (0.8495), Test loss (0.8355)
+DEBUG - 04/22/21 16:23:11 - 23:37:47 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 16:23:11 - 23:37:47 - Ended epoch
+INFO - 04/22/21 16:23:11 - 23:37:47 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 16:34:59 - 23:49:36 - Epoch 120 Rank 0 - Train loss: (0.8439), Test loss (0.8798)
+DEBUG - 04/22/21 16:34:59 - 23:49:36 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 16:34:59 - 23:49:36 - Ended epoch
+INFO - 04/22/21 16:34:59 - 23:49:36 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 16:46:48 - 1 day, 0:01:25 - Epoch 121 Rank 0 - Train loss: (0.8325), Test loss (0.8355)
+DEBUG - 04/22/21 16:46:48 - 1 day, 0:01:25 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 16:46:48 - 1 day, 0:01:25 - Ended epoch
+INFO - 04/22/21 16:46:48 - 1 day, 0:01:25 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 16:58:36 - 1 day, 0:13:13 - Epoch 122 Rank 0 - Train loss: (0.8370), Test loss (0.8298)
+DEBUG - 04/22/21 16:58:37 - 1 day, 0:13:13 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 16:58:37 - 1 day, 0:13:13 - Ended epoch
+INFO - 04/22/21 16:58:37 - 1 day, 0:13:13 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 17:10:25 - 1 day, 0:25:02 - Epoch 123 Rank 0 - Train loss: (0.8345), Test loss (0.8459)
+DEBUG - 04/22/21 17:10:25 - 1 day, 0:25:02 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 17:10:25 - 1 day, 0:25:02 - Ended epoch
+INFO - 04/22/21 17:10:25 - 1 day, 0:25:02 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 17:22:14 - 1 day, 0:36:51 - Epoch 124 Rank 0 - Train loss: (0.8359), Test loss (0.8450)
+DEBUG - 04/22/21 17:22:14 - 1 day, 0:36:51 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 17:22:14 - 1 day, 0:36:51 - Ended epoch
+INFO - 04/22/21 17:22:14 - 1 day, 0:36:51 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 17:34:03 - 1 day, 0:48:40 - Epoch 125 Rank 0 - Train loss: (0.8317), Test loss (0.8533)
+DEBUG - 04/22/21 17:34:03 - 1 day, 0:48:40 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 17:34:03 - 1 day, 0:48:40 - Ended epoch
+INFO - 04/22/21 17:34:03 - 1 day, 0:48:40 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 17:45:53 - 1 day, 1:00:30 - Epoch 126 Rank 0 - Train loss: (0.8386), Test loss (0.8586)
+DEBUG - 04/22/21 17:45:53 - 1 day, 1:00:30 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 17:45:53 - 1 day, 1:00:30 - Ended epoch
+INFO - 04/22/21 17:45:53 - 1 day, 1:00:30 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 17:57:42 - 1 day, 1:12:19 - Epoch 127 Rank 0 - Train loss: (0.8326), Test loss (0.8537)
+DEBUG - 04/22/21 17:57:42 - 1 day, 1:12:19 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 17:57:42 - 1 day, 1:12:19 - Ended epoch
+INFO - 04/22/21 17:57:42 - 1 day, 1:12:19 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 18:09:31 - 1 day, 1:24:08 - Epoch 128 Rank 0 - Train loss: (0.8326), Test loss (0.8216)
+DEBUG - 04/22/21 18:09:31 - 1 day, 1:24:08 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 18:09:31 - 1 day, 1:24:08 - Ended epoch
+INFO - 04/22/21 18:09:31 - 1 day, 1:24:08 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 18:21:21 - 1 day, 1:35:57 - Epoch 129 Rank 0 - Train loss: (0.8390), Test loss (0.8352)
+DEBUG - 04/22/21 18:21:21 - 1 day, 1:35:58 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 18:21:21 - 1 day, 1:35:58 - Ended epoch
+INFO - 04/22/21 18:21:21 - 1 day, 1:35:58 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 18:33:10 - 1 day, 1:47:47 - Epoch 130 Rank 0 - Train loss: (0.8314), Test loss (0.8364)
+DEBUG - 04/22/21 18:33:10 - 1 day, 1:47:47 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 18:33:10 - 1 day, 1:47:47 - Ended epoch
+INFO - 04/22/21 18:33:10 - 1 day, 1:47:47 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 18:44:59 - 1 day, 1:59:36 - Epoch 131 Rank 0 - Train loss: (0.8397), Test loss (0.8121)
+DEBUG - 04/22/21 18:45:00 - 1 day, 1:59:36 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/22/21 18:45:00 - 1 day, 1:59:37 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 18:45:00 - 1 day, 1:59:37 - Ended epoch
+INFO - 04/22/21 18:45:00 - 1 day, 1:59:37 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 18:56:49 - 1 day, 2:11:26 - Epoch 132 Rank 0 - Train loss: (0.8316), Test loss (0.8208)
+DEBUG - 04/22/21 18:56:49 - 1 day, 2:11:26 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 18:56:49 - 1 day, 2:11:26 - Ended epoch
+INFO - 04/22/21 18:56:49 - 1 day, 2:11:26 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 19:08:38 - 1 day, 2:23:15 - Epoch 133 Rank 0 - Train loss: (0.8328), Test loss (0.8654)
+DEBUG - 04/22/21 19:08:38 - 1 day, 2:23:15 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 19:08:38 - 1 day, 2:23:15 - Ended epoch
+INFO - 04/22/21 19:08:38 - 1 day, 2:23:15 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 19:20:27 - 1 day, 2:35:04 - Epoch 134 Rank 0 - Train loss: (0.8327), Test loss (0.8304)
+DEBUG - 04/22/21 19:20:27 - 1 day, 2:35:04 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 19:20:27 - 1 day, 2:35:04 - Ended epoch
+INFO - 04/22/21 19:20:27 - 1 day, 2:35:04 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 19:32:17 - 1 day, 2:46:54 - Epoch 135 Rank 0 - Train loss: (0.8389), Test loss (0.8412)
+DEBUG - 04/22/21 19:32:17 - 1 day, 2:46:54 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 19:32:17 - 1 day, 2:46:54 - Ended epoch
+INFO - 04/22/21 19:32:17 - 1 day, 2:46:54 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 19:44:06 - 1 day, 2:58:43 - Epoch 136 Rank 0 - Train loss: (0.8382), Test loss (0.8307)
+DEBUG - 04/22/21 19:44:06 - 1 day, 2:58:43 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 19:44:06 - 1 day, 2:58:43 - Ended epoch
+INFO - 04/22/21 19:44:06 - 1 day, 2:58:43 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 19:55:55 - 1 day, 3:10:32 - Epoch 137 Rank 0 - Train loss: (0.8275), Test loss (0.8497)
+DEBUG - 04/22/21 19:55:56 - 1 day, 3:10:32 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 19:55:56 - 1 day, 3:10:32 - Ended epoch
+INFO - 04/22/21 19:55:56 - 1 day, 3:10:32 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 20:07:45 - 1 day, 3:22:22 - Epoch 138 Rank 0 - Train loss: (0.8356), Test loss (0.8471)
+DEBUG - 04/22/21 20:07:45 - 1 day, 3:22:22 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 20:07:45 - 1 day, 3:22:22 - Ended epoch
+INFO - 04/22/21 20:07:45 - 1 day, 3:22:22 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 20:19:34 - 1 day, 3:34:11 - Epoch 139 Rank 0 - Train loss: (0.8298), Test loss (0.8515)
+DEBUG - 04/22/21 20:19:34 - 1 day, 3:34:11 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 20:19:34 - 1 day, 3:34:11 - Ended epoch
+INFO - 04/22/21 20:19:34 - 1 day, 3:34:11 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 20:31:24 - 1 day, 3:46:01 - Epoch 140 Rank 0 - Train loss: (0.8385), Test loss (0.8335)
+DEBUG - 04/22/21 20:31:24 - 1 day, 3:46:01 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 20:31:24 - 1 day, 3:46:01 - Ended epoch
+INFO - 04/22/21 20:31:24 - 1 day, 3:46:01 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 20:43:13 - 1 day, 3:57:50 - Epoch 141 Rank 0 - Train loss: (0.8363), Test loss (0.8380)
+DEBUG - 04/22/21 20:43:14 - 1 day, 3:57:50 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 20:43:14 - 1 day, 3:57:50 - Ended epoch
+INFO - 04/22/21 20:43:14 - 1 day, 3:57:50 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 20:55:03 - 1 day, 4:09:40 - Epoch 142 Rank 0 - Train loss: (0.8216), Test loss (0.8228)
+DEBUG - 04/22/21 20:55:03 - 1 day, 4:09:40 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 20:55:03 - 1 day, 4:09:40 - Ended epoch
+INFO - 04/22/21 20:55:03 - 1 day, 4:09:40 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 21:06:53 - 1 day, 4:21:30 - Epoch 143 Rank 0 - Train loss: (0.8276), Test loss (0.8528)
+DEBUG - 04/22/21 21:06:53 - 1 day, 4:21:30 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 21:06:53 - 1 day, 4:21:30 - Ended epoch
+INFO - 04/22/21 21:06:53 - 1 day, 4:21:30 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 21:18:42 - 1 day, 4:33:19 - Epoch 144 Rank 0 - Train loss: (0.8221), Test loss (0.8171)
+DEBUG - 04/22/21 21:18:42 - 1 day, 4:33:19 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 21:18:42 - 1 day, 4:33:19 - Ended epoch
+INFO - 04/22/21 21:18:42 - 1 day, 4:33:19 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 21:30:31 - 1 day, 4:45:08 - Epoch 145 Rank 0 - Train loss: (0.8290), Test loss (0.8490)
+DEBUG - 04/22/21 21:30:31 - 1 day, 4:45:08 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 21:30:31 - 1 day, 4:45:08 - Ended epoch
+INFO - 04/22/21 21:30:31 - 1 day, 4:45:08 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 21:42:20 - 1 day, 4:56:57 - Epoch 146 Rank 0 - Train loss: (0.8267), Test loss (0.8780)
+DEBUG - 04/22/21 21:42:20 - 1 day, 4:56:57 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 21:42:20 - 1 day, 4:56:57 - Ended epoch
+INFO - 04/22/21 21:42:20 - 1 day, 4:56:57 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 21:54:09 - 1 day, 5:08:46 - Epoch 147 Rank 0 - Train loss: (0.8325), Test loss (0.8480)
+DEBUG - 04/22/21 21:54:09 - 1 day, 5:08:46 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 21:54:09 - 1 day, 5:08:46 - Ended epoch
+INFO - 04/22/21 21:54:09 - 1 day, 5:08:46 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 22:05:59 - 1 day, 5:20:36 - Epoch 148 Rank 0 - Train loss: (0.8270), Test loss (0.8387)
+DEBUG - 04/22/21 22:05:59 - 1 day, 5:20:36 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 22:05:59 - 1 day, 5:20:36 - Ended epoch
+INFO - 04/22/21 22:05:59 - 1 day, 5:20:36 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 22:17:48 - 1 day, 5:32:25 - Epoch 149 Rank 0 - Train loss: (0.8222), Test loss (0.8596)
+DEBUG - 04/22/21 22:17:48 - 1 day, 5:32:25 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 22:17:48 - 1 day, 5:32:25 - Ended epoch
+INFO - 04/22/21 22:17:48 - 1 day, 5:32:25 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 22:29:37 - 1 day, 5:44:14 - Epoch 150 Rank 0 - Train loss: (0.8244), Test loss (0.8510)
+DEBUG - 04/22/21 22:29:37 - 1 day, 5:44:14 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 22:29:37 - 1 day, 5:44:14 - Ended epoch
+INFO - 04/22/21 22:29:37 - 1 day, 5:44:14 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 22:41:27 - 1 day, 5:56:03 - Epoch 151 Rank 0 - Train loss: (0.8228), Test loss (0.8541)
+DEBUG - 04/22/21 22:41:27 - 1 day, 5:56:04 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 22:41:27 - 1 day, 5:56:04 - Ended epoch
+INFO - 04/22/21 22:41:27 - 1 day, 5:56:04 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 22:53:16 - 1 day, 6:07:53 - Epoch 152 Rank 0 - Train loss: (0.8366), Test loss (0.8451)
+DEBUG - 04/22/21 22:53:16 - 1 day, 6:07:53 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 22:53:16 - 1 day, 6:07:53 - Ended epoch
+INFO - 04/22/21 22:53:16 - 1 day, 6:07:53 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 23:05:05 - 1 day, 6:19:42 - Epoch 153 Rank 0 - Train loss: (0.8235), Test loss (0.8472)
+DEBUG - 04/22/21 23:05:05 - 1 day, 6:19:42 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 23:05:05 - 1 day, 6:19:42 - Ended epoch
+INFO - 04/22/21 23:05:05 - 1 day, 6:19:42 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 23:16:54 - 1 day, 6:31:31 - Epoch 154 Rank 0 - Train loss: (0.8205), Test loss (0.8334)
+DEBUG - 04/22/21 23:16:54 - 1 day, 6:31:31 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 23:16:54 - 1 day, 6:31:31 - Ended epoch
+INFO - 04/22/21 23:16:54 - 1 day, 6:31:31 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 23:28:43 - 1 day, 6:43:20 - Epoch 155 Rank 0 - Train loss: (0.8339), Test loss (0.8555)
+DEBUG - 04/22/21 23:28:43 - 1 day, 6:43:20 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 23:28:43 - 1 day, 6:43:20 - Ended epoch
+INFO - 04/22/21 23:28:43 - 1 day, 6:43:20 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 23:40:32 - 1 day, 6:55:09 - Epoch 156 Rank 0 - Train loss: (0.8195), Test loss (0.8452)
+DEBUG - 04/22/21 23:40:32 - 1 day, 6:55:09 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 23:40:32 - 1 day, 6:55:09 - Ended epoch
+INFO - 04/22/21 23:40:32 - 1 day, 6:55:09 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/22/21 23:52:21 - 1 day, 7:06:58 - Epoch 157 Rank 0 - Train loss: (0.8235), Test loss (0.8355)
+DEBUG - 04/22/21 23:52:21 - 1 day, 7:06:58 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/22/21 23:52:21 - 1 day, 7:06:58 - Ended epoch
+INFO - 04/22/21 23:52:21 - 1 day, 7:06:58 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 00:04:09 - 1 day, 7:18:46 - Epoch 158 Rank 0 - Train loss: (0.8227), Test loss (0.8329)
+DEBUG - 04/23/21 00:04:09 - 1 day, 7:18:46 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 00:04:09 - 1 day, 7:18:46 - Ended epoch
+INFO - 04/23/21 00:04:09 - 1 day, 7:18:46 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 00:15:58 - 1 day, 7:30:34 - Epoch 159 Rank 0 - Train loss: (0.8222), Test loss (0.8270)
+DEBUG - 04/23/21 00:15:58 - 1 day, 7:30:34 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 00:15:58 - 1 day, 7:30:34 - Ended epoch
+INFO - 04/23/21 00:15:58 - 1 day, 7:30:34 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 00:27:45 - 1 day, 7:42:22 - Epoch 160 Rank 0 - Train loss: (0.8169), Test loss (0.8292)
+DEBUG - 04/23/21 00:27:45 - 1 day, 7:42:22 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 00:27:45 - 1 day, 7:42:22 - Ended epoch
+INFO - 04/23/21 00:27:45 - 1 day, 7:42:22 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 00:39:33 - 1 day, 7:54:10 - Epoch 161 Rank 0 - Train loss: (0.8184), Test loss (0.8581)
+DEBUG - 04/23/21 00:39:33 - 1 day, 7:54:10 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 00:39:33 - 1 day, 7:54:10 - Ended epoch
+INFO - 04/23/21 00:39:33 - 1 day, 7:54:10 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 00:51:21 - 1 day, 8:05:58 - Epoch 162 Rank 0 - Train loss: (0.8213), Test loss (0.8417)
+DEBUG - 04/23/21 00:51:21 - 1 day, 8:05:58 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 00:51:21 - 1 day, 8:05:58 - Ended epoch
+INFO - 04/23/21 00:51:21 - 1 day, 8:05:58 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 01:03:10 - 1 day, 8:17:46 - Epoch 163 Rank 0 - Train loss: (0.8268), Test loss (0.8414)
+DEBUG - 04/23/21 01:03:10 - 1 day, 8:17:47 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 01:03:10 - 1 day, 8:17:47 - Ended epoch
+INFO - 04/23/21 01:03:10 - 1 day, 8:17:47 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 01:14:58 - 1 day, 8:29:35 - Epoch 164 Rank 0 - Train loss: (0.8242), Test loss (0.8293)
+DEBUG - 04/23/21 01:14:59 - 1 day, 8:29:35 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 01:14:59 - 1 day, 8:29:35 - Ended epoch
+INFO - 04/23/21 01:14:59 - 1 day, 8:29:35 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 01:26:46 - 1 day, 8:41:23 - Epoch 165 Rank 0 - Train loss: (0.8256), Test loss (0.8596)
+DEBUG - 04/23/21 01:26:47 - 1 day, 8:41:23 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 01:26:47 - 1 day, 8:41:23 - Ended epoch
+INFO - 04/23/21 01:26:47 - 1 day, 8:41:23 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 01:38:34 - 1 day, 8:53:11 - Epoch 166 Rank 0 - Train loss: (0.8272), Test loss (0.8348)
+DEBUG - 04/23/21 01:38:34 - 1 day, 8:53:11 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 01:38:34 - 1 day, 8:53:11 - Ended epoch
+INFO - 04/23/21 01:38:34 - 1 day, 8:53:11 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 01:50:22 - 1 day, 9:04:59 - Epoch 167 Rank 0 - Train loss: (0.8183), Test loss (0.8357)
+DEBUG - 04/23/21 01:50:22 - 1 day, 9:04:59 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 01:50:22 - 1 day, 9:04:59 - Ended epoch
+INFO - 04/23/21 01:50:22 - 1 day, 9:04:59 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 02:02:10 - 1 day, 9:16:47 - Epoch 168 Rank 0 - Train loss: (0.8176), Test loss (0.8698)
+DEBUG - 04/23/21 02:02:11 - 1 day, 9:16:47 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 02:02:11 - 1 day, 9:16:47 - Ended epoch
+INFO - 04/23/21 02:02:11 - 1 day, 9:16:47 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 02:13:58 - 1 day, 9:28:35 - Epoch 169 Rank 0 - Train loss: (0.8279), Test loss (0.8351)
+DEBUG - 04/23/21 02:13:58 - 1 day, 9:28:35 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 02:13:58 - 1 day, 9:28:35 - Ended epoch
+INFO - 04/23/21 02:13:58 - 1 day, 9:28:35 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 02:25:47 - 1 day, 9:40:23 - Epoch 170 Rank 0 - Train loss: (0.8205), Test loss (0.8520)
+DEBUG - 04/23/21 02:25:47 - 1 day, 9:40:24 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 02:25:47 - 1 day, 9:40:24 - Ended epoch
+INFO - 04/23/21 02:25:47 - 1 day, 9:40:24 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 02:37:35 - 1 day, 9:52:12 - Epoch 171 Rank 0 - Train loss: (0.8229), Test loss (0.8375)
+DEBUG - 04/23/21 02:37:35 - 1 day, 9:52:12 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 02:37:35 - 1 day, 9:52:12 - Ended epoch
+INFO - 04/23/21 02:37:35 - 1 day, 9:52:12 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 02:49:24 - 1 day, 10:04:01 - Epoch 172 Rank 0 - Train loss: (0.8178), Test loss (0.8152)
+DEBUG - 04/23/21 02:49:24 - 1 day, 10:04:01 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 02:49:24 - 1 day, 10:04:01 - Ended epoch
+INFO - 04/23/21 02:49:24 - 1 day, 10:04:01 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 03:01:12 - 1 day, 10:15:49 - Epoch 173 Rank 0 - Train loss: (0.8228), Test loss (0.8190)
+DEBUG - 04/23/21 03:01:13 - 1 day, 10:15:49 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 03:01:13 - 1 day, 10:15:49 - Ended epoch
+INFO - 04/23/21 03:01:13 - 1 day, 10:15:49 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 03:13:01 - 1 day, 10:27:38 - Epoch 174 Rank 0 - Train loss: (0.8178), Test loss (0.8086)
+DEBUG - 04/23/21 03:13:01 - 1 day, 10:27:38 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/bestmodel_0.pth
+DEBUG - 04/23/21 03:13:01 - 1 day, 10:27:38 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 03:13:01 - 1 day, 10:27:38 - Ended epoch
+INFO - 04/23/21 03:13:01 - 1 day, 10:27:38 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 03:24:50 - 1 day, 10:39:27 - Epoch 175 Rank 0 - Train loss: (0.8199), Test loss (0.8692)
+DEBUG - 04/23/21 03:24:50 - 1 day, 10:39:27 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 03:24:50 - 1 day, 10:39:27 - Ended epoch
+INFO - 04/23/21 03:24:50 - 1 day, 10:39:27 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 03:36:38 - 1 day, 10:51:15 - Epoch 176 Rank 0 - Train loss: (0.8140), Test loss (0.8574)
+DEBUG - 04/23/21 03:36:38 - 1 day, 10:51:15 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 03:36:38 - 1 day, 10:51:15 - Ended epoch
+INFO - 04/23/21 03:36:38 - 1 day, 10:51:15 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 03:48:27 - 1 day, 11:03:04 - Epoch 177 Rank 0 - Train loss: (0.8231), Test loss (0.8433)
+DEBUG - 04/23/21 03:48:27 - 1 day, 11:03:04 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 03:48:27 - 1 day, 11:03:04 - Ended epoch
+INFO - 04/23/21 03:48:27 - 1 day, 11:03:04 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 04:00:17 - 1 day, 11:14:54 - Epoch 178 Rank 0 - Train loss: (0.8211), Test loss (0.8277)
+DEBUG - 04/23/21 04:00:17 - 1 day, 11:14:54 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 04:00:17 - 1 day, 11:14:54 - Ended epoch
+INFO - 04/23/21 04:00:17 - 1 day, 11:14:54 - Starting epoch, Rank 0, Dataset: MIDISongs/preprocessed_midhigh/D1
+INFO - 04/23/21 04:12:07 - 1 day, 11:26:43 - Epoch 179 Rank 0 - Train loss: (0.8216), Test loss (0.8592)
+DEBUG - 04/23/21 04:12:07 - 1 day, 11:26:44 - Saved model to checkpoints/final/D1midhigh-dec-1-update-15/lastmodel_0.pth
+DEBUG - 04/23/21 04:12:07 - 1 day, 11:26:44 - Ended epoch
