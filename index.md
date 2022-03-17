@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+## Evaluating The Quality of Timbre Transfer when Varying The Quantity of Instruments
 
-You can use the [editor on GitHub](https://github.com/pjcasas29/Timbre-Transfer-Evaluation/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+In this paper, we evaluated the performance of timbre transfer by using wavenet auto-encoders and varying the number of instruments in the target domains. We created the BaHaMe dataset a dataset of audio files with a varying quantity of instruments to perform such an evaluation. This dataset can be found here.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Using a pre-trained universal encoder, we trained a number of decoders that generate audio which has undergone timbre transfer containing 1 to 3 instruments. These decoders can be found in this github repository. 
+
+The quality of the transfer was evaluated with a user study in the areas of noise/artifacts, melody preservation, and expected timbre. We found that when timbre transfer is performed on an audio dataset where the files contain multiple instruments, users report that the quality of the transfer is generally worse in these three areas, particularly in the area of melody preservation
 
 ### Markdown
  
