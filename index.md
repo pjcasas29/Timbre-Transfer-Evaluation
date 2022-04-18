@@ -1,6 +1,6 @@
 ## Evaluating The Quality of Timbre Transfer when Varying The Quantity of Instruments
 
-In this paper, we evaluated the performance of timbre transfer by using wavenet auto-encoders and varying the number of instruments in the target domains. We created the BaHaMe dataset a dataset of audio files with a varying quantity of instruments to perform such an evaluation. This dataset can be found here (to be linked).
+In this project, we evaluated the performance of timbre transfer by using wavenet auto-encoders and varying the number of instruments in the target domains. We created the BaHaMe dataset a dataset of audio files with a varying quantity of instruments to perform such an evaluation.
 
 Using a pre-trained universal encoder, we trained a number of decoders that generate audio which has undergone timbre transfer containing 1 to 3 instruments. These decoders can be found in this [github repository](https://github.com/pjcasas29/Timbre-Transfer-Evaluation/tree/main/Decoders). 
 
@@ -21,8 +21,7 @@ The BaHaMe dataset consists of audio files in wav format and MIDI files, with th
 
 ### Decoders
 
-To evaluate the performance of timbre transfer, different decoders were trained - each made to output audio with either one, two, or three instruments. The corresponding outputs were then compared to each other by participants in a user study to evaluate the quality of the timbre transfer. Details of training are described in the paper. 
-
+To evaluate the performance of timbre transfer, different decoders were trained - each made to output audio with either one, two, or three instruments. The corresponding outputs were then compared to each other by participants in a user study to evaluate the quality of the timbre transfer. Details of training are described in our paper. 
 
 
 ### Example
@@ -49,4 +48,4 @@ This next file is a tranformation of this audio file with the target arrangement
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1112800363&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/pjcasas29" title="Pedro C" target="_blank" style="color: #cccccc; text-decoration: none;">Pedro C</a> · <a href="https://soundcloud.com/pjcasas29/300dataset-2-to-3all" title="300Dataset 2 to 3 - All" target="_blank" style="color: #cccccc; text-decoration: none;">300Dataset 2 to 3 - All</a></div>
 
-
+In this example, one can hear how when tranfer is performed on a domain with more instruments, the quality of the transfer suffers when compared to an example with fewer instruments.
