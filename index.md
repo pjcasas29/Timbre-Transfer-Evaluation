@@ -25,28 +25,28 @@ To evaluate the performance of timbre transfer, different decoders were trained 
 
 
 
-### Samples
+### Example
 
-Here you can hear some of the samples that were produced by some of these decoders using the BaHaMe dataset. 
+Here you can hear an example of what is illutrated by our hypothesis. Below are two samples of the transfer, one with one instrument and another with 3 instruments. 
+
+Example 1: 
+
+Here is an audio file from the BaHaMe dataset. It is from the second arrangement and consists just of a flute recording:
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1114668547&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/pjcasas29" title="Pedro C" target="_blank" style="color: #cccccc; text-decoration: none;">Pedro C</a> · <a href="https://soundcloud.com/pjcasas29/10-dataset-d2-high" title="10 Dataset D2 - High" target="_blank" style="color: #cccccc; text-decoration: none;">10 Dataset D2 - High</a></div>
+
+When using our method to translate the audio with the same melody as above of a harp back to the timbre of a flute, this is the result:
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1114668187&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/pjcasas29" title="Pedro C" target="_blank" style="color: #cccccc; text-decoration: none;">Pedro C</a> · <a href="https://soundcloud.com/pjcasas29/10dataset-d3-high-1" title="10 Dataset 3 to 2 - High" target="_blank" style="color: #cccccc; text-decoration: none;">10 Dataset 3 to 2 - High</a></div>
  
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Example 2: 
 
-```markdown
-Syntax highlighted code block
+Here is another sample from the BaHaMe dataset, again from the second arrangement. It consists of all 3 instruments:
 
-# Header 1
-## Header 2
-### Header 3
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1112799637&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/pjcasas29" title="Pedro C" target="_blank" style="color: #cccccc; text-decoration: none;">Pedro C</a> · <a href="https://soundcloud.com/pjcasas29/300-dataset-2-alll" title="300 Dataset 2 - All" target="_blank" style="color: #cccccc; text-decoration: none;">300 Dataset 2 - All</a></div>
 
-- Bulleted
-- List
+This next file is a tranformation of this audio file with the target arrangement as the 3rd arrangement. As you can hear there are some artifacts and errors in this transfer:
 
-1. Numbered
-2. List
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1112800363&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/pjcasas29" title="Pedro C" target="_blank" style="color: #cccccc; text-decoration: none;">Pedro C</a> · <a href="https://soundcloud.com/pjcasas29/300dataset-2-to-3all" title="300Dataset 2 to 3 - All" target="_blank" style="color: #cccccc; text-decoration: none;">300Dataset 2 to 3 - All</a></div>
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
